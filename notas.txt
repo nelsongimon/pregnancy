@@ -1,0 +1,1 @@
+Con el index.html vacio se obtuvo en movil = 100% y desktop = 100%
