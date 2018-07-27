@@ -1,2 +1,2 @@
 Con el index.html sin ningun css se obtuvo en movil = 100% y desktop = 99%
-con el index.html agregandole un archivo css en blanco se obtuvo movil = 86% y desktop = 99%
+con el index.html agregandole un archivo css en blanco se obtuvo movil = 86% y desktop = 97%
