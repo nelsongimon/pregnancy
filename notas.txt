@@ -1,5 +1,5 @@
 - Sin ningun css se obtuvo en movil = 100% y desktop = 99%
 - Agregandole un archivo css en blanco se obtuvo movil = 86% y desktop = 97%
 - Agregandole un archivo css en blanco y jquery cdn se obtuvo movil = 89% y desktop = 97%
-- Agregandole un archivo css en blanco, bootstrap cdn y jquery cdn se obtuvo movil = 48% y desktop = 89%
+- Agregandole un archivo css en blanco, bootstrap.css cdn y jquery cdn se obtuvo movil = 48% y desktop = 89%
 - Agregando bootstrap.js cdn y jquery cdn se obtuvo movil = 100% y desktop = 99%
