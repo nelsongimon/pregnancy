@@ -10,7 +10,7 @@ Valores Anteriores mobile = 99, desktop = 91
 
 Valores de prueba slider mobile = 39, desktop = 81
 
-Valores de home.html Mobile = 99 ; Desktop = 97
+Valores de home.html Mobile = 99 ; Desktop = 90
 
 * la inclusion de las imagenes de la galeria redujo el valor de desktop 98 a 93
 

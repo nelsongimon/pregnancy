@@ -3,8 +3,8 @@ body{
 }
 .brand{
 	background: #ee3668;
-	padding-top: 26px;
-	padding-bottom: 26px;
+	padding-top: 23px;
+	padding-bottom: 23px;
 }
 .brand h1 a{
 	color: white;
@@ -13,19 +13,20 @@ body{
 .brand h1{
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 54px;
+	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1.5px;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+/**********************************************/
 .navbar{
 	border-radius: 0px;
 	margin-bottom: 0px;
-}
-.navbar-default{
+	padding: 0px;
 	border: none !important;
 	background-color: #2b2e33;
+	box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.1);
 }
 .navbar .navbar-nav{
 	font-weight: 400;
@@ -33,23 +34,52 @@ body{
     line-height: 25px;
     text-transform: uppercase;
     text-align: left;
-    color: #7a8089;
 }
-.navbar-default .navbar-nav a{
-	padding: 44px;
+.navbar-nav .nav-link{
+	color: #7a8089;
+	padding: 37px 40px !important;
 	-webkit-transition: all .60s;
 	   -moz-transition: all .60s;
 	    -ms-transition: all .60s;
 	     -o-transition: all .60s;
 	        transition: all .60s;
 }
-.navbar-default .navbar-nav a:hover{
+.navbar-nav .nav-link:hover{
 	color: white !important;
 	background: #484c55 !important; 
 }
 /***************************************/
+.section-home-one{
+	
+}
+.carousel-item h1{
+	background-color: rgba(0,0,0,.8);
+    box-decoration-break: clone;
+    -webkit-box-shadow: 10px 0 0 rgba(0,0,0,.8), -10px 0 0 rgba(0,0,0,.8);
+    -moz-box-shadow: 10px 0 0 rgba(0,0,0,.8), -10px 0 0 rgba(0,0,0,.8);
+    -ms-box-shadow: 10px 0 0 rgba(0,0,0,.8), -10px 0 0 rgba(0,0,0,.8);
+    -o-box-shadow: 10px 0 0 rgba(0,0,0,.8), -10px 0 0 rgba(0,0,0,.8);
+    box-shadow: 10px 0 0 rgba(0,0,0,.8), -10px 0 0 rgba(0,0,0,.8);
+    color: #fff;
+    display: inline;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 132%;
+}
+.carousel-indicators .active{
+	background-color: #333333;
+}
+.carousel-indicators li{
+	background-color: #616161;
+}
+.carousel-caption {
+    bottom: 70px;
+}
+/***************************************/
+.section-spacing{
+	margin-top: 445px;
+}
 .section-home-two{
-	//margin-top: 445px;
 	padding-top: 87px;
 }
 .section-home-two h2{
