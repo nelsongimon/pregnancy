@@ -6,7 +6,7 @@
 - Acomodando el comportamiento bloqueante de los link se obtuvo movil = 100% y desktop = 99%
 
 
-valores Anteriores mobile = 100 , desktop = 100
+valores Anteriores mobile = 99, desktop = 91
 
 //@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
