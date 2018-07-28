@@ -1,8 +1,55 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
-.section{
-	padding: 87px 0;
+.brand{
+	background: #ee3668;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+.brand h1 a{
+	color: white;
+	text-decoration: none;
+}
+.brand h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 54px;
+	font-weight: 700;
+	letter-spacing: -1.5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.navbar-default{
+	border: none !important;
+	background-color: #2b2e33;
+}
+.navbar .navbar-nav{
+	font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #7a8089;
+}
+.navbar-default .navbar-nav a{
+	padding: 44px;
+	-webkit-transition: all .60s;
+	   -moz-transition: all .60s;
+	    -ms-transition: all .60s;
+	     -o-transition: all .60s;
+	        transition: all .60s;
+}
+.navbar-default .navbar-nav a:hover{
+	color: white !important;
+	background: #484c55 !important; 
+}
+/***************************************/
+.section-hone-two{
+	padding-top: 87px;
 }
 .section-home-two h2{
 	color: #ee3668;
@@ -23,6 +70,11 @@ body{
 }
 .section-home-two .content-image img{
 	width: 100%;
+}
+/***************************************/
+.section-home-three{
+	padding-top: 87px;
+	padding-bottom: 30px; 
 }
 .section-home-three h2{
 	color: #ee3668;
@@ -52,6 +104,9 @@ body{
 }
 /****************************************/
 .section-home-four{
+	padding: 87px 0;
+}
+.section-home-four{
 	background-color: #ea6c2f;
 	color: white;
 }
@@ -71,4 +126,16 @@ h4{
 	font-weight: 400;
 	font-style: italic;
 	line-height: 36px
+}
+/********************************************/
+footer{
+	padding: 55px 0;
+	background: #E4E4E4;
+}
+footer p{
+	margin-bottom: 0px;
+	font-size: 18px;
+	color: #323232;
+	font-weight: 400;
+	text-align: center;
 }

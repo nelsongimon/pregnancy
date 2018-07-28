@@ -6,8 +6,12 @@
 - Acomodando el comportamiento bloqueante de los link se obtuvo movil = 100% y desktop = 99%
 
 
-valores Anteriores mobile = 99, desktop = 98
+valores Anteriores mobile = 99, desktop = 93
+
+* la inclusion de las imagenes de la galeria redujo el valor de desktop 98 a 93
 
 //@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 img/section-home-one-full-image.jpg
+
+#2b2e33
