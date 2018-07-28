@@ -15,3 +15,6 @@ valores Anteriores mobile = 99, desktop = 93
 img/section-home-one-full-image.jpg
 
 #2b2e33
+
+li margin-left: 3px;
+
