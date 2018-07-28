@@ -6,7 +6,9 @@
 - Acomodando el comportamiento bloqueante de los link se obtuvo movil = 100% y desktop = 99%
 
 
-valores Anteriores mobile = 99, desktop = 93
+Valores Anteriores mobile = 99, desktop = 93
+
+Valores de prueba slider mobile = 45, desktop = 58
 
 * la inclusion de las imagenes de la galeria redujo el valor de desktop 98 a 93
 
@@ -17,4 +19,6 @@ img/section-home-one-full-image.jpg
 #2b2e33
 
 li margin-left: 3px;
+
+	<link href="css/plugins/camera.css" rel="stylesheet" media="screen">
 
