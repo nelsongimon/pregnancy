@@ -1,1 +1,21 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.section{
+	padding: 87px 0;
+}
+.section-home-two h2{
+	color: #ee3668;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 51px;
+}
+.section-home-two .full-content-image img{
+	width: 100%;
+}
+.section-home-two .content-image img{
+	width: 100%;
+}
