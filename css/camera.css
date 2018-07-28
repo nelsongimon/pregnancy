@@ -20,7 +20,7 @@
 }
 .camera_wrap {
 	direction: ltr;
-	display: none;
+	display: block;
 	float: left;
 	position: relative;
 	z-index: 0;
