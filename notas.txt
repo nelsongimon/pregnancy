@@ -6,7 +6,7 @@
 - Acomodando el comportamiento bloqueante de los link se obtuvo movil = 100% y desktop = 99%
 
 
-Valores Anteriores mobile = 99, desktop = 93
+Valores Anteriores mobile = 99, desktop = 91
 
 Valores de prueba slider mobile = 45, desktop = 58
 
