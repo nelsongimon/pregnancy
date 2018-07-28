@@ -8,7 +8,7 @@
 
 Valores Anteriores mobile = 99, desktop = 91
 
-Valores de prueba slider mobile = 39, desktop = 84
+Valores de prueba slider mobile = 39, desktop = 81
 
 * la inclusion de las imagenes de la galeria redujo el valor de desktop 98 a 93
 
@@ -21,6 +21,8 @@ img/section-home-one-full-image.jpg
 li margin-left: 3px;
 
 	<link href="css/plugins/camera.css" rel="stylesheet" media="screen">
+
+Elinar el javascript que bloquea al css
 
 
 
