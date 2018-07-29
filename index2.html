@@ -6,9 +6,9 @@
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="images/favicon.png" rel="icon" type="image/png" />
-	<link rel="preload" media="screen" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" onload="this.rel='stylesheet'"/>
+	<link rel="preload" media="screen" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" onload="this.rel='stylesheet'"/>
 	<noscript>
-    	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
   	</noscript>
  	<link rel="preload" media="screen" as="style" href="css/camera.css" onload="this.rel='stylesheet'"/>
 	<noscript>
@@ -18,82 +18,153 @@
 	<noscript>
     	<link href="css/style.css" rel="stylesheet" media="screen">
   	</noscript>
+ 	<link rel="preload" media="screen" as="style" href="css/animate.css" onload="this.rel='stylesheet'"/>
+	<noscript>
+    	<link href="css/animate.css" rel="stylesheet" media="screen">
+  	</noscript>
 	<title>Pregnancy</title>
 </head>
 <body>
-<div>
 	<header>
 		<!--  Navigation -->
-		<div class="brand">
+		<div class="brand d-none d-md-block">
 			<div class="container">
 				<h1>
-					<a href="#">Pregnancy 47</a>
+					<a href="#">Pregnancy</a>
 				</h1>
 			</div>
 		</div>
-		<nav class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Menú 1</a></li>
-						<li><a href="#">Menú 2</a></li>
-						<li><a href="#">Menú 3</a></li>
-						<li><a href="#">Menú 4</a></li>
-						<li><a href="#">Menú 5</a></li>
-						<li><a href="#">Menú 6</a></li>
-					</ul>
-				</div>
-		
-			</div>
-		</nav>
+	    <nav id="navbar-menu" class="navbar navbar-expand-md d-none d-md-block">
+	        <div class="container">
+	        	<div class="navbar-nav-content">
+	                <ul class="navbar-nav">
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 1</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 2</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 3</a>
+	                    </li>               
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 4</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 5</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 6</a>
+	                    </li>            
+	                </ul>
+	        	</div>
+	        </div>
+	    </nav>
+	    <nav id="navbar-top" class="navbar fixed-top navbar-expand-md fadeInDown animated">
+	        <div class="container">
+	        	<div class="navbar-nav-content">
+	                <ul class="navbar-nav">
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 1</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 2</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 3</a>
+	                    </li>               
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 4</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 5</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 6</a>
+	                    </li>            
+	                </ul>
+	        	</div>
+	        </div>
+	    </nav>
+	    <!-- Navbar Mobile -->
+    	<nav id="navbar-mobile" class="navbar navbar-light d-block d-md-none">
+        	<div class="container">
+	            <a class="navbar-brand" href="#">Pregnancy</a>
+	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	                <span class="navbar-toggler-icon"></span>
+	            </button>
+ 	            <div class="collapse navbar-collapse" id="navbarNav">
+	                <ul class="navbar-nav">
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 1</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 2</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 3</a>
+	                    </li>               
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 4</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 5</a>
+	                    </li>
+	                    <li class="nav-item">
+	                        <a class="nav-link" href="menu.html">Menú 6</a>
+	                    </li>            
+	                </ul>
+	            </div>
+        	</div>
+    	</nav>
 	</header>
 	<!-- Section Home One -->
 	<section class="section-home-one">
        <div id="camera" class="camera-wrap">
+            <div data-src="images/index_slide01.jpg">
+                <div class="fadeIn camera_caption">
+                    <h2>Take care of yourself and the miracle inside you</h2>
+                </div>
+            </div>
             <div data-src="images/index_slide02.jpg">
                 <div class="fadeIn camera_caption">
-                    <h2>Everything for your health and the health of your baby </h2>
+                    <h2>Everything for your health and the health of your baby</h2>
                 </div>
             </div>
             <div data-src="images/index_slide03.jpg">
                 <div class="fadeIn camera_caption">
-                    <h2>Everything you wanted to know about your health & fitness during pregnancy </h2>
+                    <h2>Everything you wanted to know about your health & fitness during pregnancy</h2>
                 </div>
             </div>
         </div>
 	</section>
-</div>
 	<!-- Section Home Two -->
 	<section class="section-home-two section-spacing">
 		<div class="container">
 			<h2>Welcome to our website!</h2>
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-12 col-sm-12 col-md-8">
 					<article>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="btn btn-primary">Leer Más</a>
+						cillum dolore eu fugiat nulla pariatur.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi.</p>
+						<div class="call-to-action">
+							<a class="btn" href="#">Leer Más</a>
+						</div>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-12 col-md-4">
 					<div class="content-image">
-						<img src="http://via.placeholder.com/150x150">
+						<img src="http://via.placeholder.com/380x320">
 					</div>
 				</div>
 			</div>
-			<div class="full-content-image">
+			<div class="d-none d-md-block full-content-image">
 				<img src="images/section-home-one-full-image.jpg">
 			</div>
 		</div>
@@ -102,7 +173,7 @@
 	<section class="section-home-four">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-12">
 					<h4>"Lorem ipsum dolor sit amet, consecr adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes"</h4>
 					<h5>AMANDA RICHARDSON</h5>
 					<p>A Physician at “Fusce suscipit” Hospital. Cum sociis natoque penatibus et magnis dis parturient montes....</p>
@@ -115,10 +186,15 @@
 		<div class="container">
 			<h2>Latest from the blog</h2>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -127,10 +203,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -139,10 +220,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -151,10 +237,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -163,10 +254,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -175,10 +271,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -187,10 +288,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -199,10 +305,15 @@
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 					</article>
 				</div>
-				<div class="col-md-3">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 					<article>
 						<div class="content-image">
-							<img src="images/section-three-image.jpg">
+							<a href="#">
+								<img src="images/section-three-image.jpg">
+								<div class="content-description">
+									<img src="images/search.svg">
+								</div>
+							</a>
 						</div>
 						<h3>
 							<a href="#">Lorem ipsum dolor sit amet ipsum</a>
@@ -221,10 +332,11 @@
 	</footer>
 	<!-- Scripts Javascripts-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script type='text/javascript' src='js/plugins/jquery.mobile.customized.min.js'></script>
 	<script type='text/javascript' src='js/plugins/jquery.easing.1.3.js'></script> 
 	<script type='text/javascript' src='js/plugins/camera.min.js'></script> 
-	<script type='text/javascript' src='js/main.js'></script> 
+	<script src="js/plugins/wow.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

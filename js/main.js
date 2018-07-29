@@ -84,8 +84,11 @@ $(function(){
     });
     wow.init();
 
-    var offset = 215;
+    var offset = 170;
     $(window).scroll(function() {
+        if($(window).width() < 767){
+            return false;
+        }
         if ($(this).scrollTop() > offset) {
             $('#navbar-menu').css('display', 'none');
             $('#navbar-top').css('display', 'block');

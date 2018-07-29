@@ -10,7 +10,7 @@ Valores Anteriores mobile = 99, desktop = 91
 
 Valores de prueba slider mobile = 39, desktop = 81
 
-Valores de home.html Mobile = 99 ; Desktop = 90
+Valores de home.html Mobile = 99 ; Desktop = 89
 
 * la inclusion de las imagenes de la galeria redujo el valor de desktop 98 a 93
 
@@ -32,6 +32,21 @@ con home.html agregue animate.css y wow.js y el svg de search
 
 fadeInDown
 fadeInUp
+
+
+Hasta el commit 52 voy bien
+
+112
+
+
+
+Acomodar el menu para centrarlo. listo***
+Arreglar el index2. listo ***
+Investigar sobre el css critico.
+
+
+
+el slider, el spacing en section home two
 
 
 
