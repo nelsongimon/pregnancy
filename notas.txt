@@ -25,6 +25,13 @@ li margin-left: 3px;
 	<link href="css/plugins/camera.css" rel="stylesheet" media="screen">
 
 Elinar el javascript que bloquea al css
+------------------------------------
+
+con home.html agregue animate.css y wow.js y el svg de search
+
+
+fadeInDown
+fadeInUp
 
 
 

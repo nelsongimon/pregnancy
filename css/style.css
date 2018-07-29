@@ -187,7 +187,7 @@ body{
 	font-size: 18px;
 	margin-top: 2px;
 }
-h4{
+.section-home-four h4{
 	font-family: 'Georgia', serif;
 	font-size: 26px;
 	font-weight: 400;
@@ -220,6 +220,79 @@ h4{
 	background: #ee3668;
 }
 /********************************************/
+.section-menu-one{
+	padding: 87px 0;
+	background: #00a1df;
+}
+.section-menu-one h2{
+	color: white;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 51px;
+}
+.section-menu-one h3{
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 300;
+	margin-bottom: 10px;	
+}
+.section-menu-one p{
+	color: white;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.section-menu-one .content-image img{
+	width: 90%;
+}
+/********************************************/
+.section-menu-two{
+	padding: 87px 0;
+}
+.section-menu-two h2{
+	color: #ee3668;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 51px;
+}
+.section-menu-two h3{
+	color: #323232;
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 300;
+	margin-bottom: 10px;	
+}
+.section-menu-two p{
+	color: #323232;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight: 300;
+}
+.section-menu-two .content-image img{
+	width: 100%;
+}
+/****************************************/
+.section-menu-three{
+	padding: 87px 0;
+}
+.section-menu-three{
+	background-color: #ee3668;
+	color: white;
+}
+.section-menu-three h4{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 35px
+	margin-bottom: 0px;
+}
+/********************************************/
+
 footer{
 	padding: 55px 0;
 	background: #E4E4E4;
