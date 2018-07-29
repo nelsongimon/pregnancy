@@ -27,7 +27,7 @@
 		<div class="brand d-none d-md-block">
 			<div class="container">
 				<h1>
-					<a href="#">Pregnancy 56</a>
+					<a href="#">Pregnancy 57</a>
 				</h1>
 			</div>
 		</div>
@@ -345,5 +345,14 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<script src="js/plugins/wow.js"></script>
 	<script src="js/main.js"></script>
+	<script>var cb = function() {
+	var l = document.createElement('link'); l.rel = 'stylesheet';
+	l.href = 'PATH_TO_COMBINED_CSS_FILE';
+	var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+	};
+	var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+	webkitRequestAnimationFrame || msRequestAnimationFrame;
+	if (raf) raf(cb);
+	else window.addEventListener('load', cb);</script>
 </body>
 </html>
