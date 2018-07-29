@@ -51,6 +51,34 @@ body{
 	color: white !important;
 	background: #484c55 !important; 
 }
+/**********************************************/
+#navbar-mobile{
+	background-color: #ee3668 !important;
+	padding: 5px 7px; 
+}
+#navbar-mobile .navbar-brand{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
+#navbar-mobile .navbar-nav{
+	font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+#navbar-mobile .navbar-nav .nav-link{
+	color:white;
+	padding: 10px 25px !important;
+	-webkit-transition: all .60s;
+	   -moz-transition: all .60s;
+	    -ms-transition: all .60s;
+	     -o-transition: all .60s;
+	        transition: all .60s;
+}
 /***************************************/
 .section-home-one{
 	
@@ -303,4 +331,32 @@ footer p{
 	color: #323232;
 	font-weight: 400;
 	text-align: center;
+}
+/**********Responsive**********/
+@media screen and (max-width: 991px) {
+
+}
+
+/**************************************************************/
+
+@media screen and (max-width: 767px) {
+
+}
+
+/******************************************************/
+
+@media screen and (max-width: 480px) {
+
+}
+
+/*******************************************************/
+
+@media screen and (max-width: 380px) {
+
+}
+
+/****************************************************/
+
+@media screen and (max-width: 320px) {
+
 }
