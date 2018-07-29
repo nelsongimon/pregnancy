@@ -55,6 +55,7 @@ body{
 	margin: auto !important;
 }
 /**********************************************/
+/*
 #navbar-mobile{
 	background-color: #ee3668 !important;
 	padding: 5px 7px; 
@@ -81,6 +82,47 @@ body{
 	    -ms-transition: all .60s;
 	     -o-transition: all .60s;
 	        transition: all .60s;
+}
+*/
+/**********************************************/
+#navbar-mobile{
+	background-color: transparent; !important;
+	padding: 5px 7px; 
+	text-align: right;
+}
+#navbar-mobile .navbar-brand{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+}
+#navbar-mobile .navbar-nav{
+	font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    background: #ee3668 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#navbar-mobile .navbar-nav .nav-link{
+	color:white;
+	padding: 10px 25px !important;
+	-webkit-transition: all .60s;
+	   -moz-transition: all .60s;
+	    -ms-transition: all .60s;
+	     -o-transition: all .60s;
+	        transition: all .60s;
+}
+.navbar-light .navbar-toggler {
+    color: white !important;
+    border-color: none !important;
+    background: #ee3668 !important;
+    border-radius: 0px;
+	padding: 10px;
+    
 }
 /***************************************/
 .section-home-one{
@@ -135,6 +177,10 @@ body{
 }
 .section-home-two .content-image img{
 	width: 100%;
+}
+.section-home-two .image-content{
+	float: right; 
+	width: 30%;
 }
 /***************************************/
 .section-home-three{
@@ -279,6 +325,10 @@ body{
 .section-menu-one .content-image img{
 	width: 90%;
 }
+.section-menu-one .image-content{
+	float: left; 
+	width: 30%;
+}
 /********************************************/
 .section-menu-two{
 	padding: 87px 0;
@@ -306,6 +356,10 @@ body{
 }
 .section-menu-two .content-image img{
 	width: 100%;
+}
+.section-menu-two .image-content{
+	float: right; 
+	width: 30%;
 }
 /****************************************/
 .section-menu-three{
@@ -360,7 +414,7 @@ footer p{
 	    bottom: 35px;
 	}
 	.section-home-two{
-		padding: 55px 0;
+		padding-top: 55px;
 	}
 	.section-home-two h2{
 		font-size: 38px;
@@ -488,7 +542,7 @@ footer p{
 	    bottom: 35px;
 	}
 	.section-home-two{
-		padding: 55px 0;
+		padding-top: 55px;
 	}
 	.section-home-two h2{
 		font-size: 38px;
@@ -498,6 +552,9 @@ footer p{
 	.section-home-two p{
 		font-size: 15px;
 		line-height: 22px;
+	}
+	.section-home-two .image-content{ 
+		width: 35%;
 	}
 	.call-to-action{
 		margin-top: 20px;
@@ -565,6 +622,9 @@ footer p{
 		font-size: 15px;
 		line-height: 22px;
 	}
+	.section-menu-one .image-content{ 
+		width: 35%;
+	}
 	.section-menu-two{
 		padding: 55px 0;
 	}
@@ -581,6 +641,9 @@ footer p{
 	.section-menu-two p{
 		font-size: 15px;
 		line-height: 22px;	
+	}
+	.section-menu-two .image-content{ 
+		width: 35%;
 	}
 	.section-menu-three{
 		padding: 55px 0;
@@ -605,7 +668,10 @@ footer p{
 	.section-home-two p{
 		font-size: 18px;
 		line-height: 30px;
-		text-align: center;
+		text-align: left;
+	}
+	.section-home-two .image-content{ 
+		width: 90%;
 	}
 	.call-to-action{
 		text-align: center;
@@ -622,17 +688,17 @@ footer p{
 	.section-home-four h5{
 		font-size: 18px;
 		margin-top: 25px;	
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four p{
 		font-size: 18px;
 		margin-top: 5px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four h4{
 		font-size: 20px;
 		line-height: 25px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-three{
 		padding-top: 60px;
@@ -675,15 +741,18 @@ footer p{
 		font-size: 20px;
 		line-height: 24px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one p{
 		font-size: 17px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one .content-image{
 		text-align: center;
+	}
+	.section-menu-one .image-content{ 
+		width: 90%;
 	}
 	.section-menu-two{
 		padding: 60px 0;
@@ -697,15 +766,18 @@ footer p{
 		font-size: 20px;
 		line-height: 24px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two p{
 		font-size: 17px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two .content-image{
 		text-align: center;
+	}
+	.section-menu-two .image-content{ 
+		width: 90%;
 	}
 	.section-menu-three{
 		padding: 60px 0;
@@ -732,7 +804,10 @@ footer p{
 	.section-home-two p{
 		font-size: 17px;
 		line-height: 28px;
-		text-align: center;
+		text-align: left;
+	}
+	.section-home-two .image-content{ 
+		width: 90%;
 	}
 	.call-to-action{
 		text-align: center;
@@ -749,17 +824,17 @@ footer p{
 	.section-home-four h5{
 		font-size: 18px;
 		margin-top: 25px;	
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four p{
 		font-size: 18px;
 		margin-top: 5px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four h4{
 		font-size: 20px;
 		line-height: 25px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-three{
 		padding-top: 50px;
@@ -802,15 +877,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one p{
 		font-size: 17px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one .content-image{
 		text-align: center;
+	}
+	.section-menu-one .image-content{ 
+		width: 90%;
 	}
 	.section-menu-two{
 		padding: 50px 0;
@@ -824,15 +902,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two p{
 		font-size: 17px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two .content-image{
 		text-align: center;
+	}
+	.section-menu-two .image-content{ 
+		width: 90%;
 	}
 	.section-menu-three{
 		padding: 50px 0;
@@ -859,7 +940,10 @@ footer p{
 	.section-home-two p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;
+		text-align: left;
+	}
+	.section-home-two .image-content{ 
+		width: 88%;
 	}
 	.call-to-action{
 		text-align: center;
@@ -876,17 +960,17 @@ footer p{
 	.section-home-four h5{
 		font-size: 18px;
 		margin-top: 25px;	
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four p{
 		font-size: 17px;
 		margin-top: 5px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four h4{
 		font-size: 20px;
 		line-height: 25px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-three{
 		padding-top: 45px;
@@ -929,15 +1013,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one .content-image{
 		text-align: center;
+	}
+	.section-menu-one .image-content{ 
+		width: 88%;
 	}
 	.section-menu-two{
 		padding: 45px 0;
@@ -951,15 +1038,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two .content-image{
 		text-align: center;
+	}
+	.section-menu-two .image-content{ 
+		width: 88%;
 	}
 	.section-menu-three{
 		padding: 45px 0;
@@ -986,7 +1076,10 @@ footer p{
 	.section-home-two p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;
+		text-align: left;
+	}
+	.section-home-two .image-content{ 
+		width: 87%;
 	}
 	.call-to-action{
 		text-align: center;
@@ -1003,17 +1096,17 @@ footer p{
 	.section-home-four h5{
 		font-size: 18px;
 		margin-top: 25px;	
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four p{
 		font-size: 17px;
 		margin-top: 5px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-four h4{
 		font-size: 20px;
 		line-height: 25px;
-		text-align: center;
+		text-align: left;
 	}
 	.section-home-three{
 		padding-top: 45px;
@@ -1056,15 +1149,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-one .content-image{
 		text-align: center;
+	}
+	.section-menu-one .image-content{ 
+		width: 87%;
 	}
 	.section-menu-two{
 		padding: 45px 0;
@@ -1078,15 +1174,18 @@ footer p{
 		font-size: 19px;
 		line-height: 23px;
 		margin-bottom: 10px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two p{
 		font-size: 16px;
 		line-height: 28px;
-		text-align: center;	
+		text-align: left;	
 	}
 	.section-menu-two .content-image{
 		text-align: center;
+	}
+	.section-menu-two .image-content{ 
+		width: 87%;
 	}
 	.section-menu-three{
 		padding: 45px 0;
